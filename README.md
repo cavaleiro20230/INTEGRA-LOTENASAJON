@@ -18,6 +18,11 @@ Uma arquitetura robusta para integração de dados contábeis deve incluir:
 Vamos implementar uma solução que suporta tanto integração via API quanto via arquivos:
 
 ```typescriptreact project="nasajon_integration"
+# Compilar o projeto
+mvn clean package
+
+# Executar o aplicativo
+java -jar target/nasajon-integration-1.0-SNAPSHOT-jar-with-dependencies.jar
 ...
 ```
 
